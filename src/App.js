@@ -1,8 +1,8 @@
 import "./App.css";
 import React, { useEffect } from "react";
-import logo from "./images/ecomap.png";
-import google from "./images/android.png";
-import appstore from "./images/apple.png";
+// import logo from "./images/ecomap.png";
+// import google from "./images/android.png";
+// import appstore from "./images/apple.png";
 import map from "./images/map.png";
 import { useForm, ValidationError } from "@formspree/react";
 

@@ -1,19 +1,16 @@
 {
   "files": {
-    "main.css": "/poulpyR2r.github.io/landingpage/static/css/main.b7d95041.css",
-    "main.js": "/poulpyR2r.github.io/landingpage/static/js/main.634fdb38.js",
-    "static/js/787.dc3741aa.chunk.js": "/poulpyR2r.github.io/landingpage/static/js/787.dc3741aa.chunk.js",
-    "static/media/map.png": "/poulpyR2r.github.io/landingpage/static/media/map.a96bb06e69bfe67ecd30.png",
-    "static/media/apple.png": "/poulpyR2r.github.io/landingpage/static/media/apple.10d58a810af3da41f16d.png",
-    "static/media/ecomap.png": "/poulpyR2r.github.io/landingpage/static/media/ecomap.6d0609a2c90d2409eada.png",
-    "static/media/android.png": "/poulpyR2r.github.io/landingpage/static/media/android.388cd1c5f7dcfced4e20.png",
-    "index.html": "/poulpyR2r.github.io/landingpage/index.html",
-    "main.b7d95041.css.map": "/poulpyR2r.github.io/landingpage/static/css/main.b7d95041.css.map",
-    "main.634fdb38.js.map": "/poulpyR2r.github.io/landingpage/static/js/main.634fdb38.js.map",
-    "787.dc3741aa.chunk.js.map": "/poulpyR2r.github.io/landingpage/static/js/787.dc3741aa.chunk.js.map"
+    "main.css": "/landingpage/static/css/main.b7d95041.css",
+    "main.js": "/landingpage/static/js/main.c9806606.js",
+    "static/js/787.dc3741aa.chunk.js": "/landingpage/static/js/787.dc3741aa.chunk.js",
+    "static/media/map.png": "/landingpage/static/media/map.a96bb06e69bfe67ecd30.png",
+    "index.html": "/landingpage/index.html",
+    "main.b7d95041.css.map": "/landingpage/static/css/main.b7d95041.css.map",
+    "main.c9806606.js.map": "/landingpage/static/js/main.c9806606.js.map",
+    "787.dc3741aa.chunk.js.map": "/landingpage/static/js/787.dc3741aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7d95041.css",
-    "static/js/main.634fdb38.js"
+    "static/js/main.c9806606.js"
   ]
 }
