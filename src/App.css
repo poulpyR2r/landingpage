@@ -1,0 +1,116 @@
+.TextHero {
+  font-size: 80.11px;
+  line-height: 96.95px;
+  color: #3c405c !important;
+  font-weight: 700;
+}
+
+.Button {
+  height: 57px;
+  width: 140px;
+  background-color: #3c405c;
+  color: #f6f1de;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 12px;
+  background: var(--text-color-dark-blue, #3c405c);
+  margin-top: 88px;
+}
+
+.Container2 {
+}
+
+.littleText {
+  color: #252739;
+  font-family: Inter;
+  font-size: 16.8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Title {
+  color: #252739;
+  font-size: 64.09px;
+}
+.Card {
+  margin-top: 50px;
+  border-radius: 32px;
+  background-color: #f6f1de;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.titleCard {
+  font-size: 26.25px;
+  border-radius: 32px 32px 0px 0px;
+  background-color: #e07a5e;
+}
+
+.bodyCard {
+  font-size: 21px;
+  padding-top: 25px;
+  padding-bottom: 39px;
+  padding-left: 20px;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+.containerImage {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ImageDownload {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+.textDescription {
+  font-size: 21px;
+}
+.containerText {
+  background-color: red;
+  width: 50%;
+}
+
+.imageMap {
+  width: 150rem;
+  height: 100%;
+  border-radius: 32px;
+}
+
+.containerInput {
+  height: 3.5rem;
+}
+
+.App {
+  background-color: #f6f1de;
+}
+
+.containerForm {
+  margin-bottom: 20rem;
+}
+
+.textCallToAction {
+  color: #252739;
+
+  font-size: 32.81px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.titleCallToAction {
+  color: #252739;
+
+  font-size: 64.09px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
