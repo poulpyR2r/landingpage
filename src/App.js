@@ -15,7 +15,7 @@ function App() {
     if (state.succeeded) {
       setSuccesForm(true);
     }
-  });
+  }, [state.succeeded]);
 
   return (
     <div className="App">
