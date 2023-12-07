@@ -117,7 +117,7 @@ function App() {
         </div>
       </nav>
 
-      <div className="py-20 mb-52 mt-24 sm:py-10 sm:mb-26 sm:mt-12">
+      <div className="heroContainer py-20 mb-52 mt-24 sm:py-10 sm:mb-26 sm:mt-12">
         <div className="container flex flex-col lg:flex-row mx-auto px-6">
           <div className="flex flex-col">
             <h1 className="text-[40px] sm:text-[60px] lg:text-[80.11px] leading-[48px] sm:leading-[60px] lg:leading-[96.95px] w-full sm:w-[500px] lg:w-[650px] text-[#3c405c] font-bold mr-0 sm:mr-[60px] lg:mr-[120px]">
@@ -255,78 +255,72 @@ function App() {
       </div>
 
       <div className="containerColorDiscover">
-        <div className="container mx-auto px-6 flex flex-col justify-center items-center">
+        <div className="container mx-auto px-4 sm:px-6 flex flex-col justify-center items-center">
           <div className="flex flex-col w-full items-start">
-            <div className="text-orange-100 text-right text-lg font-bold whitespace-nowrap mr-7 mt-16 max-md:max-w-full max-md:mr-2.5 ">
+            <div className="text-orange-100 text-right text-lg font-bold whitespace-nowrap mr-4 sm:mr-7 mt-8 sm:mt-16 max-w-full">
               Le concept
             </div>
-            <div className="text-orange-100 text-4xl font-bold w-[1116px] mr-7 mt-9  mb-10 max-md:max-w-full max-md:mr-2.5">
+            <div className="text-orange-100 text-2xl sm:text-4xl font-bold w-full sm:w-auto mr-4 sm:mr-7 mt-4 sm:mt-9 mb-6 sm:mb-10">
               Découvrez ÉcoMap, votre guide d'éco-responsabilité tout-en-un
-            </div>{" "}
+            </div>
           </div>
 
-          <div className="flex  mr-7 mt-4 mb-24 max-md:max-w-full max-md:mr-2.5 max-md:mb-10">
-            <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-              <div className="flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0">
-                <div className="flex flex-col items-stretch mt-28 max-md:max-w-full max-md:mt-10">
-                  <div className="text-orange-100 text-xl font-medium max-md:max-w-full">
-                    Plus besoin de se prendre la tête pour choisir un restaurant
-                    qui est aligné avec vos valeurs, avec Ecomap, retrouvez:
-                    <br />
-                    <ul className="liste mt-9 ml-9">
-                      <li>Les restaurants éco-responsables autour de vous</li>
-                      <br />
-
-                      <li>Un guide détaillé des labels éco-responsables</li>
-                      <br />
-
-                      <li>
-                        Une plateforme pour défendre votre restaurant favoris et
-                        le faire connaître !
-                      </li>
-                      <br />
-                    </ul>
-                  </div>{" "}
-                  {/* <div className="text-slate-700 text-right text-xl font-medium whitespace-nowrap justify-center items-stretch bg-orange-100 mt-16 px-8 py-4 rounded-xl self-start max-md:mt-10 max-md:px-5">
-                    Découvrir
-                  </div> */}
-                </div>
-              </div>{" "}
-              <div className="flex flex-col items-stretch w-[49%] ml-5 max-md:w-full max-md:ml-0">
-                <img loading="lazy" srcSet={map} className="imageDiscover" />
+          <div className="flex flex-col sm:flex-row w-full mr-4 sm:mr-7 mt-4 mb-12 sm:mb-24">
+            <div className="flex flex-col w-full sm:w-1/2 pr-0 sm:pr-5 mb-6 sm:mb-0">
+              <div className="text-orange-100 text-lg sm:text-xl font-medium mt-4 sm:mt-28">
+                Plus besoin de se prendre la tête pour choisir un restaurant qui
+                est aligné avec vos valeurs, avec Ecomap, retrouvez:
+                <ul className="liste mt-6 sm:mt-9 ml-4 sm:ml-9">
+                  <li>Les restaurants éco-responsables autour de vous</li>
+                  <li>Un guide détaillé des labels éco-responsables</li>
+                  <li>
+                    Une plateforme pour défendre votre restaurant favoris et le
+                    faire connaître !
+                  </li>
+                </ul>
               </div>
+            </div>
+            <div className="flex flex-col w-full sm:w-1/2">
+              <img
+                loading="lazy"
+                srcSet={map}
+                className="imageDiscover w-full h-auto"
+              />
             </div>
           </div>
         </div>
       </div>
-      <div className="containerColorForm pt-28">
+
+      <div className="containerColorForm pt-8 md:pt-28">
         <div
-          className="container mx-auto px-6 py-2 flex flex-col  w-full mb-28"
+          className="container mx-auto px-4 md:px-6 py-2 flex flex-col w-full mb-16 md:mb-28"
           id="form"
         >
-          <h1 className="titleCallToAction">Vous voulez en savoir plus ?</h1>
-          <p className="textCallToAction">
+          <h1 className="titleCallToAction text-lg md:text-xl lg:text-2xl">
+            Vous voulez en savoir plus ?
+          </h1>
+          <p className="textCallToAction text-sm md:text-base lg:text-lg">
             Saisissez votre adresse électronique pour obtenir plus
             d'informations sur l'EcoMap.
           </p>
         </div>
-        <div className="flex w-full">
+        <div className="flex flex-col md:flex-row w-full">
           <form
             onSubmit={handleSubmit}
             className="containerForm w-full flex justify-center"
           >
-            <div className="flex bg-gray-800  flex-col px-8 py-12 rounded-3xl w-1/2">
-              <div className="text-orange-100 text-xl font-medium mb-4">
+            <div className="flex bg-gray-800 flex-col px-4 md:px-8 py-6 md:py-12 rounded-3xl w-full md:w-3/4 lg:w-1/2">
+              <div className="text-orange-100 text-lg md:text-xl font-medium mb-4">
                 Contact email
               </div>
-              <div className="containerInput flex gap-5 mb-7">
+              <div className="containerInput flex flex-col md:flex-row gap-4 md:gap-5 mb-7">
                 <input
                   id="email"
                   type="email"
                   name="email"
                   required
                   placeholder="Saisissez votre adresse e-mail"
-                  className="w-full p-4 rounded-xl border border-[color:var(--background-color-white-beige,#F6F1DE)] text-neutral-400 bg-gray-700"
+                  className="w-full p-2 md:p-4 rounded-xl border border-[color:var(--background-color-white-beige,#F6F1DE)] text-neutral-400 bg-gray-700"
                 />
                 <ValidationError
                   prefix="Email"
@@ -336,7 +330,7 @@ function App() {
                 <button
                   type="submit"
                   disabled={state.submitting}
-                  className="px-8 rounded-xl text-slate-700 bg-orange-100"
+                  className="w-full md:w-auto px-4 md:px-8 py-2 rounded-xl text-slate-700 bg-orange-100"
                 >
                   Recevoir l'info
                 </button>
