@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/landingpage/static/css/main.79e43f58.css",
-    "main.js": "/landingpage/static/js/main.3d5868a4.js",
+    "main.css": "/landingpage/static/css/main.6f60fdff.css",
+    "main.js": "/landingpage/static/js/main.5588038c.js",
     "static/js/787.dc3741aa.chunk.js": "/landingpage/static/js/787.dc3741aa.chunk.js",
     "static/media/guide.png": "/landingpage/static/media/guide.c4f39701417a4bfb8145.png",
     "static/media/interractive.png": "/landingpage/static/media/interractive.8c742e387bc72c2fa1d9.png",
     "static/media/certfied.png": "/landingpage/static/media/certfied.253aa047c029dc65bc6e.png",
-    "static/media/map.png": "/landingpage/static/media/map.a96bb06e69bfe67ecd30.png",
+    "static/media/phone.png": "/landingpage/static/media/phone.c1c6c7620570c2e9255c.png",
+    "static/media/map.png": "/landingpage/static/media/map.71e9d0ad4f58bcdcfc24.png",
+    "static/media/phone_front.png": "/landingpage/static/media/phone_front.cae4e12dfd94f1f9ca0d.png",
+    "static/media/ampoule.png": "/landingpage/static/media/ampoule.697001e3d45aba75affe.png",
+    "static/media/label.png": "/landingpage/static/media/label.6c5f59e37e0b3a574a1f.png",
     "index.html": "/landingpage/index.html",
-    "main.79e43f58.css.map": "/landingpage/static/css/main.79e43f58.css.map",
-    "main.3d5868a4.js.map": "/landingpage/static/js/main.3d5868a4.js.map",
+    "main.6f60fdff.css.map": "/landingpage/static/css/main.6f60fdff.css.map",
+    "main.5588038c.js.map": "/landingpage/static/js/main.5588038c.js.map",
     "787.dc3741aa.chunk.js.map": "/landingpage/static/js/787.dc3741aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79e43f58.css",
-    "static/js/main.3d5868a4.js"
+    "static/css/main.6f60fdff.css",
+    "static/js/main.5588038c.js"
   ]
 }
