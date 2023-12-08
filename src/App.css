@@ -1,219 +1,282 @@
-  .TextHero {
-    font-size: 80.11px;
-    line-height: 96.95px;
-    width: 650px;
-    color: #3c405c !important;
-    font-weight: 700;
-    margin-right: 120px;
-  }
+.TextHero {
+  font-size: 80.11px;
+  line-height: 96.95px;
+  width: 650px;
+  color: #3c405c !important;
+  font-weight: 700;
+  margin-right: 120px;
+}
 
-  .Button {
-    left: 0;
-    height: 57px;
-    width: 140px;
-    background-color: #3c405c;
-    color: #f6f1de;
-    padding: 16px, 32px, 16px, 32px;
-    border-radius: 12px;
-    background: var(--text-color-dark-blue, #3c405c);
-    margin-top: 88px;
-  }
+.Button {
+  left: 0;
+  height: 57px;
+  width: 140px;
+  background-color: #3c405c;
+  color: #f6f1de;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 12px;
+  background: var(--text-color-dark-blue, #3c405c);
+  margin-top: 88px;
+}
 
-  .Container2 {
-  }
+.Container2 {
+}
 
-  .littleText {
-    color: #252739;
-    font-family: Inter;
-    font-size: 16.8px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+.littleText {
+  color: #252739;
+  font-family: Inter;
+  font-size: 16.8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
-  .Title {
-    color: #252739;
-    font-size: 64.09px;
-  }
-  .Card {
-    margin-top: 50px;
-    border-radius: 32px;
-    background-color: #f6f1de;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-  .titleCard {
-    font-size: 26.25px;
-    border-radius: 32px 32px 0px 0px;
-    background-color: #e07a5e;
-  }
+.Title {
+  color: #252739;
+  font-size: 64.09px;
+}
+.Card {
+  margin-top: 50px;
+  border-radius: 32px;
+  background-color: #f6f1de;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.titleCard {
+  font-size: 26.25px;
+  border-radius: 32px 32px 0px 0px;
+  background-color: #e07a5e;
+}
 
-  .bodyCard {
-    font-size: 21px;
-    padding-top: 25px;
-    padding-bottom: 39px;
-    padding-left: 20px;
-  }
+.bodyCard {
+  font-size: 21px;
+  padding-top: 25px;
+  padding-bottom: 39px;
+  padding-left: 20px;
+}
 
-  .picture {
-    width: 100%;
-    height: 100%;
-    border-radius: 32px;
-    object-fit: cover;
-  }
+.picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  object-fit: cover;
+}
 
-  .containerImage {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
+.containerImage {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 
-  .ImageDownload {
-    width: 100%;
-    height: 100%;
-    border-radius: 32px;
-    object-fit: cover;
-  }
+.ImageDownload {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  object-fit: cover;
+}
 
-  .textDescription {
-    font-size: 21px;
-  }
-  .containerText {
-    background-color: red;
-    width: 50%;
-  }
+.textDescription {
+  font-size: 21px;
+}
+.containerText {
+  background-color: red;
+  width: 50%;
+}
 
-  .imageMap {
-    width: auto;
-    height: 700px;
-    border-radius: 32px;
-    margin-top: -60px;
-    margin-left: 290px;
-  }
+.imageMap {
+  width: auto;
+  height: 700px;
+  border-radius: 32px;
+  margin-top: -60px;
+  margin-left: 290px;
+}
 
-  .containerInput {
-    height: 3.5rem;
-  }
+.containerInput {
+  height: 3.5rem;
+}
 
-  .App {
-    background-color: #f6f1de;
-  }
+.App {
+  background-color: #f6f1de;
+}
 
-  html {
-    --scroll-behavior: smooth;
-    scroll-behavior: smooth;
-  }
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
 
-  .containerForm {
-    margin-bottom: 20rem;
-  }
+.containerForm {
+  margin-bottom: 20rem;
+}
 
-  .textCallToAction {
-    color: #f6f1de;
-    font-size: 32.81px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+.textCallToAction {
+  color: #f6f1de;
+  font-size: 32.81px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
-  .titleCallToAction {
-    color: #f6f1de;
-    font-size: 64.09px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .titlePropose {
-    color: #000000;
-    font-size: 64.09px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+.titleCallToAction {
+  color: #f6f1de;
+  font-size: 64.09px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.titlePropose {
+  color: #000000;
+  font-size: 64.09px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
-  .card-header {
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e07a5e;
+  height: 96px;
+  width: 334px;
+  border-radius: 32px 32px 0px 0px;
+}
+
+.card-header-text {
+  font-size: 26.25px;
+  color: #252739;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  font-size: 21px;
+  padding-top: 25px;
+  padding-bottom: 39px;
+  padding-left: 20px;
+  line-height: 25.41px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-content: right;
+  padding: 0;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 437px;
+  width: 334px;
+  background-color: white;
+  border-radius: 32px;
+}
+
+.ContainerTitlePourquoi {
+  margin-bottom: 89px;
+}
+
+.TitlePourquoi {
+  color: #252739;
+  font-size: 64.09px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ContainerPourquoi {
+  background-color: #81b29b;
+  background-image: url(./images/phone_front.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 20px !important;
+  z-index: 12;
+}
+
+.containerColorDiscover {
+  background-color: #3c405c;
+}
+
+.imageDiscover {
+  width: 506px;
+  height: 495px;
+  border-radius: 32px;
+  align-self: center;
+}
+.liste .li {
+  list-style-type: disc;
+}
+
+.containerColorStat {
+  background-color: #e07a5e;
+  height: 714px;
+}
+
+.box77 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f1de;
+  width: 270px;
+  height: 270px;
+  top: 50px;
+  right: 20px;
+  border-radius: 32px;
+  position: relative;
+  z-index: 1;
+}
+.box37 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f1de;
+  width: 270px;
+  height: 270px;
+  top: 0px;
+  left: 200px;
+  border-radius: 32px;
+}
+
+.containerColorForm {
+  background-color: #3c405c;
+}
+
+.containerFooter {
+  background-color: #3c405c;
+}
+
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  width: 100%;
+}
+
+.navBackground {
+  background-color: #f6f1ded9;
+}
+
+.textNav {
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  .ContainerPourquoi {
+    background-image: none;
+  }
+  .containerBox {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #e07a5e;
-    height: 96px;
-    width: 334px;
-    border-radius: 32px 32px 0px 0px;
-  }
-
-  .card-header-text {
-    font-size: 26.25px;
-    color: #252739;
-  }
-
-  .card-body {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .card-text {
-    font-size: 21px;
-    padding-top: 25px;
-    padding-bottom: 39px;
-    padding-left: 20px;
-    line-height: 25.41px;
-  }
-
-  .card-image {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    align-content: right;
-    padding: 0;
-  }
-
-  .card {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 437px;
-    width: 334px;
-    background-color: white;
-    border-radius: 32px;
-  }
-
-  .ContainerTitlePourquoi {
-    margin-bottom: 89px;
-  }
-
-  .TitlePourquoi {
-    color: #252739;
-    font-size: 64.09px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  .ContainerPourquoi {
-    background-color: #81b29b;
-    background-image: url(./images/phone_front.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right 20px !important;
-    z-index: 12;
-  }
-
-  .containerColorDiscover {
-    background-color: #3c405c;
-  }
-
-  .imageDiscover {
-    width: 506px;
-    height: 495px;
-    border-radius: 32px;
-    align-self: center;
-  }
-  .liste .li {
-    list-style-type: disc;
-  }
-
-  .containerColorStat {
-    background-color: #e07a5e;
-    height: 714px;
+    gap: 50px;
   }
 
   .box77 {
@@ -225,15 +288,13 @@
     background-color: #f6f1de;
     width: 270px;
     height: 270px;
-    top: 50px;
-    right: 20px;
+    top: 0;
+    right: 0;
     border-radius: 32px;
-    position: relative;
     z-index: 1;
   }
   .box37 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    position: relative;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -241,80 +302,86 @@
     background-color: #f6f1de;
     width: 270px;
     height: 270px;
-    top: 0px;
-    left: 200px;
+    top: 0;
+    left: 0;
     border-radius: 32px;
+    margin-top: 0px !important;
   }
-
-  .containerColorForm {
-    background-color: #3c405c;
-  }
-
-  .containerFooter {
-    background-color: #3c405c;
-  }
-
-  .containerNav {
-    display: flex;
-    justify-content: space-between;
-    background-color: red;
+  .containerForm {
+    margin: 0;
     width: 100%;
+    height: auto;
   }
 
-  .navBackground {
-    background-color: #f6f1ded9;
+  .backgroundcolor1User {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
   }
+}
 
-  .textNav {
-    font-size: 17px;
-  }
 
-  @media (max-width: 768px) {
-    .ContainerPourquoi {
-      background-image: none;
-    }
-    .containerBox {
-      display: flex;
-      justify-content: center;
-      gap: 50px;
-    }
+.textUser {
+  /* Styles Tailwind pour responsivité et espacement */
+  @apply text-[40px] sm:text-[60px] lg:text-[80.11px];
+  @apply leading-[48px] sm:leading-[60px] lg:leading-[96.95px];
+  @apply w-full sm:w-[600px] lg:w-[700px];
+  @apply text-[#3c405c] font-bold;
+  @apply mr-0 sm:mr-[60px] lg:mr-[120px];
 
-    .box77 {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #f6f1de;
-      width: 270px;
-      height: 270px;
-      top: 0;
-      right: 0;
-      border-radius: 32px;
-      z-index: 1;
-    }
-    .box37 {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #f6f1de;
-      width: 270px;
-      height: 270px;
-      top: 0;
-      left: 0;
-      border-radius: 32px;
-      margin-top: 0px !important;
-    }
-    .containerForm{
-      margin: 0;
-      width: 100%;
-      height: auto;
-    }
+  /* Styles CSS spécifiques */
+  display: inline-block;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+  background: var(--Grad-orange-n-dark-blue, linear-gradient(90deg, #e07a5e 0%, #3c405c 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-    .heroContainer{
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-  }
+.backgroundcolor1User {
+  background-color: #f6f1de;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.sectionUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  width: 162px;
+  margin: 51px 0 0 0;
+  padding: 16px 32px 16px 32px;
+  border-radius: 12px;
+  background: var(--text-color-dark-blue, #3c405c);
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.text-2User {
+  flex-shrink: 0;
+  flex-basis: auto;
+  height: 25px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.imgUser {
+  margin-top: 60px;
+  width: 395px;
+  height: 857px;
+  top: -10px;
+  left: 797px;
+  background: url(./images/phone.png) no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}

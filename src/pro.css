@@ -1,0 +1,256 @@
+.backgroundcolor1 {
+  background-color: #3c405c;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.navBackgroundPro {
+  background-color: #3c405cd9;
+}
+.backgroundcolor2 {
+  background-color: #81b29b;
+  width: 100%;
+}
+.img {
+  margin-top: 60px;
+  width: 483px;
+  height: 862px;
+  top: -10px;
+  left: 797px;
+  background: url(./images/proPhone.png) no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+
+.text {
+  @apply text-[40px] sm:text-[60px] lg:text-[69px];
+  @apply leading-[48px] sm:leading-[60px] lg:leading-[96.95px];
+  @apply w-full sm:w-[600px] lg:w-[700px];
+  @apply text-[#3c405c] font-bold;
+  @apply mr-0 sm:mr-[60px] lg:mr-[120px];
+
+  display: inline-block;
+  /* Suppression de width et height redondants */
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  /* Suppression de font-size et font-weight redondants */
+  text-align: left;
+  background: linear-gradient(90deg, #81b29b, #e07a5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  width: 162px;
+  margin: 51px 0 0 0;
+  padding: 16px 32px 16px 32px;
+  border-radius: 12px;
+  background: var(--text-color-dark-blue, #3c405c);
+  border: 1px solid #e07a5e;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.text-2 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  height: 25px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #e07a5e;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.group {
+  height: 1045px;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 0px;
+  background: #f6f1de;
+  overflow: hidden;
+}
+
+.card-text-body {
+  font-size: 26.25px;
+  color: #f6f1de;
+}
+
+.subtitlePlan {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.cardPro {
+  background-color: #3c405c;
+  width: 382px;
+  height: 628px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: var(--text-color-dark-blue, #3c405c);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cardHeaderPro {
+  display: flex;
+  width: 382px;
+  padding: 22px 34px 14px 33px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px 32px 0px 0px;
+  background: var(--text-color-deep-dark-blue, #252739);
+}
+
+.TitleCardPro {
+  color: var(--background-color-white-beige, #f6f1de);
+
+  font-size: 32.81px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.TitleCardProStandard {
+  font-size: 32.81px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: var(
+    --Grad-green-n-orange,
+    linear-gradient(90deg, #81b29b 0%, #e07a5e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.SubTitleCardPro {
+  color: var(--background-color-white-beige, #f6f1de);
+  text-align: center;
+  font-size: 26.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.listeCardPro {
+  color: var(--background-color-white-beige, #f6f1de);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.cardHeaderProPrenium {
+  display: flex;
+  width: 382px;
+  padding: 22px 34px 14px 33px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px 32px 0px 0px;
+  background: var(
+    --Grad-orange-n-dark-blue,
+    linear-gradient(90deg, #e07a5e 0%, #3c405c 100%)
+  );
+}
+
+.TitleNosOffres {
+  color: var(--text-color-deep-dark-blue, #252739);
+
+  font-size: 64.09px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Decouverte {
+  color: var(--text-color-deep-dark-blue, #252739);
+  text-align: right;
+
+  /* Small bold */
+  font-size: 16.8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.containerColorPlan {
+  background-color: #f6f1de;
+  width: 100%;
+}
+
+.card-imagePro {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-content: right;
+  padding: 0;
+}
+
+.card-imageProAliment {
+  display: flex;
+  justify-content: flex-end;
+  width: 65%;
+  height: 100%;
+  object-fit: cover;
+  align-content: right;
+  padding: 0;
+  margin-left: 117px;
+}
+
+.imagepropodiom {
+  border-radius: 0px 0px 32px 0px;
+  margin-top: -26px;
+}
+.imageprocertifie {
+  margin-top: -76px;
+}
+
+.imageproaliment {
+  margin-top: -45px;
+}
+
+.card-bodyPro {
+  background-color: #3c405c;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.card-textPro {
+  color: #f6f1de;
+  font-size: 21px;
+  padding-top: 25px;
+  padding-bottom: 39px;
+  padding-left: 20px;
+  line-height: 25.41px;
+}
+
+.appDownload {
+  width: 170px;
+}
+
+/* li:not(.navBackgroundPro) {
+  list-style: inside;
+} */
+.containerColorStatPro {
+  background-color: #81b29b;
+  padding-bottom: 50px;
+}
+
+.dote {
+  list-style: inside;
+}
