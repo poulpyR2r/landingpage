@@ -97,7 +97,7 @@ const Pro = () => {
               <li>
                 <Link
                   className="textNav block py-2 px-3 text-black  rounded md:bg-transparent"
-                  to="/user"
+                  to="/"
                 >
                   Espace particulier
                 </Link>
