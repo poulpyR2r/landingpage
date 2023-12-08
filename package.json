@@ -2,7 +2,7 @@
   "name": "loadingpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://poulpyR2r.github.io/landingpage",
+  "homepage": "https://poulpyR2r.github.io/landingpage/user",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@testing-library/jest-dom": "^5.17.0",
