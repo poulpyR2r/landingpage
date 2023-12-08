@@ -75,7 +75,7 @@ const User = () => {
                   href="#propos"
                   class=" textNav block py-2 px-3 text-black  rounded md:bg-transparent"
                 >
-                  A propos
+                  À propos
                 </a>
               </li>
               <li>
@@ -91,7 +91,7 @@ const User = () => {
                   className="textNav block py-2 px-3 text-black  rounded md:bg-transparent"
                   to="/"
                 >
-                  Espace particulier
+                  Espace particuliers
                 </Link>
               </li>
               <li>
@@ -141,12 +141,12 @@ const User = () => {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/2c0c2c7f4cfa6b3676802fa63f9813fec145bc6040e3216687ca14713df2b1e1?"
                   className="mr-3"
                 />
-                <p className="card-header-text">Trouves ton resto</p>
+                <p className="card-header-text">Trouve ton resto</p>
               </div>
               <div className="card-body">
                 <div className="card-text">
                   <p>
-                    Régalez-vous dans un restaurant qui réunis toutes tes
+                    Régalez-vous dans un restaurant qui réunit toutes tes
                     valeurs.
                   </p>
                 </div>

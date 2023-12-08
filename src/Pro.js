@@ -45,7 +45,7 @@ const Pro = () => {
             aria-expanded="false"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <span class="sr-only">Open main menu</span>
+            <span class="sr-only">Ouvrire le menu</span>
             <svg
               class="w-5 h-5"
               aria-hidden="true"
@@ -83,7 +83,7 @@ const Pro = () => {
                   href="#propos"
                   class=" textNav block py-2 px-3 text-black  rounded md:bg-transparent"
                 >
-                  A propos
+                  À propos
                 </a>
               </li>
               <li>
@@ -99,7 +99,7 @@ const Pro = () => {
                   className="textNav block py-2 px-3 text-black  rounded md:bg-transparent"
                   to="/"
                 >
-                  Espace particulier
+                  Espace particuliers
                 </Link>
               </li>
               <li>
@@ -236,8 +236,8 @@ const Pro = () => {
                   58%
                 </div>
                 <div className="text-slate-700 text-center text-lg font-medium leading-6 self-stretch mt-7 mb-4">
-                  Des Français apprécient les restaurants qui sont transparents
-                  sur leur cuisine et l'origine de leurs produits.
+                  Les Français apprécient les restaurants qui font preuve de
+                  transparence sur leur cuisine et l'origine de leurs produits.
                 </div>
               </div>
             </div>
@@ -252,7 +252,7 @@ const Pro = () => {
               Le concept
             </div>
             <div className="text-orange-100 text-2xl sm:text-4xl font-bold w-full sm:w-auto mr-4 sm:mr-7 mt-4 sm:mt-9 mb-6 sm:mb-10">
-              ÉcoMap, votre boussole vers une activité éco-responsables reconnue
+              ÉcoMap, votre boussole vers une activité éco-responsable reconnue
               !
             </div>
           </div>
@@ -265,12 +265,12 @@ const Pro = () => {
                     Permettez à vos clients de vous retrouver facilement
                   </li>
                   <br />
-                  <li className="dote">Rendez visible vos labels</li>
+                  <li className="dote">Rendez vos labels visibles</li>
                   <br />
 
                   <li className="dote">
-                    Retrouvez tout les labels éco-responsables qui existent dans
-                    la restauration
+                    Retrouvez tous les labels éco-responsables existant dans la
+                    restauration.
                   </li>
                 </ul>
               </div>
@@ -332,7 +332,7 @@ const Pro = () => {
                   <br />
 
                   <ul className="ml-6">
-                    <li className="dote">Apparition sur l’ÉcoMap</li>
+                    <li className="dote">Apparition sur ÉcoMap</li>
                     <br />
                     <li className="dote">Consultation</li>
                     <br />
